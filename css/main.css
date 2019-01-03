@@ -1,0 +1,66 @@
+html{background-image:;opacity: 1; background-repeat: no-repeat; }
+body{margin: auto;padding: 5% 0 0;font-family:Calibri,Candara;}
+form input{border: 3px solid #555;border-radius: 4px;padding: 12px 2px;margin: 10px 0 5px;box-sizing: border-box;width: 100%;font-size: 15;}
+#in{border: 3px solid #555;padding: 10px;margin: 10px 0 5px;box-sizing: border-box;width: 100%;font-size: 15;}
+.form_login{width: 60%;padding: 0;border: none;position: relative;max-width: 500px;margin: 0 auto 20px;}
+input[type=submit]{background-color: #006bd6;border: none;border-radius: 0; color: #ffffff;padding: 10px;text-decoration: none;margin: 10px 2px;font-size: 15px;width: 40%; margin-right: 13px;}input[type=submit]:hover {background: #0ca3d2;}
+fieldset{padding: 20px;}
+select{padding:4px;border-radius: 5px;border:3px double #D4D4D4;cursor: pointer;}
+#login{z-index: 1; clear: both;position: relative;width: 70%;min-height: 100%; padding: 2.5px 20px 30px 50px;margin: 0 auto;background: #272727 url(../images/school_content_top.jpg) top no-repeat;}
+#header {position: relative;}
+#header .header_content{color: #FFFFFF; text-align: center;font-family: Bauer Bodoni;font-weight: bold;font-size: 2em;letter-spacing: -1px;}
+.header a { color: #FFFFFF; font-weight: normal; text-decoration: none; }
+.fpass{color:white; font-size: 15px; text-decoration: none; font-weight: bold;} a{text-decoration: none;}
+/***alert***/
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 600%;
+    background-color: #272727;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0px;
+    padding: 20px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/****footer****/.main-footer{font-family:monospace;bottom:0;padding-top:25px;position:fixed;width:100%;padding:0;margin:0;} .bottom_footer{background: #000; color: #fff; height: 90px; margin: ; margin-bottom: 0; padding-top: 10px;}.p{color: #fff; text-align: center;font-size: 13.55px;}
