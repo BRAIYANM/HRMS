@@ -1,6 +1,6 @@
     <div class="main-footer">
             <div class="bottom_footer">
-              <p class="p">Copyright (c) Human Resource Managent System <?php echo date("Y"); ?><br>Powered by Jose Kinyua<br><i class="fa fa-phone"></i> 0726655321</p>
+              <p class="p">Copyright (c) Human Resource Managent System <?php echo date("Y"); ?><br>Powered by Braiyan Mbugua<br><i class="fa fa-phone"></i> 0719553361</p>
               
             </div>
         </div>
